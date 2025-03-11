@@ -1,0 +1,134 @@
+.home {
+  background: rgb(80, 32, 5);
+  background: radial-gradient(
+    circle,
+    rgba(80, 32, 5, 1) 0%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+#banner{
+  background-image: url("/src/assets/wave.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* background-size: cover; */
+  width: 100%;
+}
+
+.techstack-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.techstack {
+  max-width: 960px;
+  margin: 50px auto;
+  background-color: White;
+}
+.about-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.job {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.job h5 {
+  text-align: center;
+}
+
+
+.job-container > div {
+  padding: 1rem;
+}
+.job-container > div h5 {
+  margin-top: 5px;
+}
+.job-container > div img {
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+/* Contact container */
+
+.contact-container {
+  margin: 0 auto;
+  max-width: 760px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  height: 100%;
+}
+.contact-container > div {
+  width: 100%;
+}
+.contact-container img {
+  width: 100%;
+  border-radius: 15px;
+}
+.contact-container > div:nth-of-type(2) {
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .about h2 {
+    margin: 30px 0;
+  }
+  .about-container {
+    display: block;
+    padding: 15px;
+  }
+  .about-container > div {
+    width: 100%;
+  }
+  .about-container img{
+    width: 100%;
+  }
+
+  .techstack-container {
+    display: block;
+  }
+  .techstack-container div {
+    width: 100%;
+    padding: 15px;
+  }
+#progress-bar{
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+  .job-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  .job-container > div {
+    margin-bottom: 15px;
+  }
+
+  .contact-container {
+    display: block;
+    padding: 15px;
+  }
+  .contact-container > div:nth-of-type(1){
+    margin: 20px 0;
+  }
+}
+
+.back-to-top{
+  position: fixed;
+  top: 40%;
+  left: 80%;
+  border: none;
+}
+
+
