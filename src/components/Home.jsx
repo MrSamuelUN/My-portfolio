@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
 import About from "./About";
-// import Skill from ".//Testfile"
 import Jobs from "./Jobs";
 import Contact from "./Contact";
 import Skills from "./Progress";
