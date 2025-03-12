@@ -1,5 +1,5 @@
 import React from "react";
-import filterProject from "../assets/filter project.png";
+import filterImage from "../assets/filter-project.png";
 import Ecommerce from "../assets/Ecommerce.png";
 import latestMovie from "../assets/latest Movie.png";
 import { motion } from "framer-motion";
@@ -44,7 +44,7 @@ function Jobs() {
               transition={{ type: "spring", stiffness: 80 }}
               className="project-card rounded-3"
             >
-              <img src={filterProject} alt="" />
+              <img src={filterImage} alt="" />
               <div>
                 <h5>Responsive Filter Search App</h5>
                 <p className="card-text">

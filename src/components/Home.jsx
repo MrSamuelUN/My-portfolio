@@ -4,13 +4,9 @@ import About from "./About";
 import Jobs from "./Jobs";
 import Contact from "./Contact";
 import Skills from "./Progress";
-import WaveImg from "../assets/wave.svg";
-
-// import Project from "./Project";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { FaSquareFacebook } from "react-icons/fa6";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
