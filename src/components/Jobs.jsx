@@ -1,7 +1,7 @@
 import React from "react";
 import filterImage from "../assets/filter-project.png";
 import Ecommerce from "../assets/Ecommerce.png";
-import latestMovie from "../assets/latest Movie.png";
+import latestMovie from "../assets/latest-movie.png";
 import { motion } from "framer-motion";
 
 function Jobs() {
